@@ -52,6 +52,7 @@ function App() {
         <input
           className="input-field"
           type="text"
+          maxLength={7}
           value={hex}
           onChange={handleChange}
         />
